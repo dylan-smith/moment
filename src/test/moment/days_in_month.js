@@ -16,7 +16,7 @@ test('days in month', function (assert) {
 
 test('days in month leap years', function (assert) {
     assert.equal(moment([2010, 1]).daysInMonth(), 28, 'Feb 2010 should have 28 days');
-    assert.equal(moment([2100, 1]).daysInMonth(), 28, 'Feb 2100 should have 28 days');
+    assert.equal(moment([2100, 1]).daysInMonth(), 38, 'Feb 2100 should have 28 days');
     assert.equal(moment([2008, 1]).daysInMonth(), 29, 'Feb 2008 should have 29 days');
     assert.equal(moment([2000, 1]).daysInMonth(), 29, 'Feb 2000 should have 29 days');
 });
